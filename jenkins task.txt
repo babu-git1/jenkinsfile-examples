@@ -1,0 +1,14 @@
+Registered ports are in the range 1024 to 49151. Dynamic ports are in the range 49152 to 65535.
+ As mentioned, most new port assignments are in the range from 1024 to 49151. 
+Registered port numbers are non–well-known ports that are used by vendors for their own server applications.
+
+
+
+Reset Jenkins Admin's Password
+Click on People on the left-hand navigation menu.
+Click on the Admin.
+Delete the user account.
+Navigate to Jenkins / Manage Jenkins.
+Click on Configure Global Security.
+Check the Enable Security check box.
+Under Security Realm, select Jenkins' own user database.
